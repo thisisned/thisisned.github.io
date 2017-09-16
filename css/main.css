@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700');
 
 body {
   margin: 60px auto;
@@ -9,30 +9,38 @@ body {
 nav {
   margin-bottom: 80px;
 }
+
 nav ul, footer ul {
   padding: 0px;
   list-style: none;
   text-align: center;
 }
+
 nav ul li, footer ul li {
   display: inline;
-  margin: 0 20px 0 20px;
+  margin: 0 25px 0 25px;
+  font-weight: 300;
 }
+
 a {
   text-decoration: none;
   color: #999;
 }
+
 a:hover {
   text-decoration: underline;
 }
+
 h1 {
   font-size: 3.5em;
   text-align: center;
-  font-weight: normal;
+  font-weight: 300;
+  margin-bottom: 30px;
 }
+
 p {
-  font-size: 1.2em;
-  line-height: 1.2em;
+  font-size: 1.1em;
+  line-height: 1.1em;
   color: #333;
 }
 
