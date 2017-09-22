@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700');
 
+div {
+  border: 1px solid black;
+}
+
 body {
   margin: 60px auto;
   width: 70%;
@@ -7,7 +11,7 @@ body {
 }
 
 nav {
-  margin-bottom: 80px;
+  margin-bottom: 50px;
 }
 
 nav ul, footer ul {
@@ -17,8 +21,9 @@ nav ul, footer ul {
 }
 
 nav ul li, footer ul li {
-  display: inline;
-  margin: 0 25px 0 25px;
+  display: inline-block;
+  margin: 0 25px 15px 25px;
+  min-width: 40px;
   font-weight: 300;
 }
 
@@ -61,4 +66,24 @@ ul.posts {
 
 ul.posts li {
   list-style: none;
+}
+
+/* MUSIC */
+
+.music {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.music-block {
+  display: block;
+  min-width: 250px;
+  margin: 20px;
+  text-align: center;
+}
+
+.music-block p {
+  font-size: 1em;
 }
