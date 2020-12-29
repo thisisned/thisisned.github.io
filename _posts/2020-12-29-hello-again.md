@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Hello again.""
+title:  "Hello again."
 ---
 
 # Oh man it's been a long time
